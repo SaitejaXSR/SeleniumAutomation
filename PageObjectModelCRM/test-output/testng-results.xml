@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-07T12:56:18 IST" name="Default suite" finished-at="2022-06-07T12:56:32 IST" duration-ms="13513">
+    <groups>
+    </groups>
+    <test started-at="2022-06-07T12:56:18 IST" name="Default test" finished-at="2022-06-07T12:56:32 IST" duration-ms="13513">
+      <class name="com.cg.tests.ForgotPasswordPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cg.tests.ForgotPasswordPageTest@18d87d80]" started-at="2022-06-07T12:56:19 IST" name="setUp" finished-at="2022-06-07T12:56:30 IST" duration-ms="11623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="resetPasswordTest()[pri:0, instance:com.cg.tests.ForgotPasswordPageTest@18d87d80]" started-at="2022-06-07T12:56:30 IST" name="resetPasswordTest" finished-at="2022-06-07T12:56:32 IST" duration-ms="1696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPasswordTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.cg.tests.ForgotPasswordPageTest@18d87d80]" started-at="2022-06-07T12:56:32 IST" name="closeBrowser" finished-at="2022-06-07T12:56:32 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.cg.tests.ForgotPasswordPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,3 @@
+module junit {
+	exports junit;
+}

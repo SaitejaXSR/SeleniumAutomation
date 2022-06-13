@@ -13,7 +13,7 @@ public class Bing {
 		System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		
-		driver.get("https://www.bing.com/");
+		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		
 		Thread.sleep(2000);

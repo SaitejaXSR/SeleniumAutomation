@@ -1,0 +1,38 @@
+server:
+  port: 8081
+spring:
+  jpa:    show-sql: true
+    generate-ddl: true
+  #security:    #user:      #name: admin
+      #password: admin   
+info:
+  app:
+    name: Producer Application
+    desc: It deals with Customers and Account
+    version: 1.0 
+management:
+  server:    port: 8082  endpoints:    web:      exposure:        include:
+           - '*'  endpoint:    health:      show-details: always
+---
+spring:  profiles:  - dev
+  - default
+  - test
+  datasource:   #driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/accdb
+    username: root
+    password: admin
+---
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  profiles:
+  - prod
+  - qa
+  datasource:
+    url: jdbc:h2:file:~/accdb
+    username: sa
+    password:  
+       
+ 
